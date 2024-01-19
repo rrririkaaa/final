@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+/*top-listのボタン*/
+a.button {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	color: #27acd9;
+	border-bottom: 2px solid #b2ccfc;
+	border-radius: 100vh;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+	transition: 0.5s;
+}
+a.button:hover {
+	color: #fff;
+	background: #b2ccfc;
+	border-bottom: 2px solid #fff;
+	transform: translateY(3px);
+}
+
+.form-inline {
+    display: inline-block; /* 横に並べるためのスタイル */
+    margin-right: 10px; /* フォーム間の余白 */
+}
+
+/* header */
+h1 {
+    text-align: left;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #007bff;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Style the horizontal line */
+hr {
+    border: 1px solid #007bff;
+    margin: 30px 0;
+}
